@@ -1,0 +1,128 @@
+{*margin:0px; padding:0px}
+.popover{
+    width:250px;
+    height:80px;    
+}
+.popover-title {
+    
+    font-size: 15px;
+}
+.popover-content {
+    
+    font-size: 13px;
+}
+.margint{
+    margin-top: 7%;
+}
+.margint2{
+    margin-top: 3%;
+}
+
+.colorr{
+	background-color:#F8F8F8;
+}
+
+
+.fonts{
+    color: black;
+    font-size: 20px;
+}
+.footer{
+    color: black;
+}
+
+.area1{
+
+	height:150px;
+	
+}
+.area2{
+
+	height:150px;
+	
+}
+
+.area{
+	height:140px;
+
+}
+
+
+.first{
+	 border-radius: 20px;
+ 	background-color:#B0B0B0 ;
+	border: 5px solid #808080 ;
+	margin-right:11%;
+
+	
+	
+}
+.second{
+	 border-radius: 20px;
+	background-color:#B0B0B0 ;
+	border: 5px solid #808080;
+	margin-right:11%;
+}
+.third{
+	 border-radius: 20px;
+	background-color:#B0B0B0 ;
+	border: 5px solid #808080 ;
+}
+.fourth{
+	 border-radius: 20px;
+	background-color:#B0B0B0 ;
+	border: 5px solid #808080 ;
+	margin-right:11%;
+}
+.fifth{
+	 border-radius: 20px;
+	background-color:#B0B0B0 ;
+	border: 5px solid #808080 ;
+	margin-right:11%;
+}
+.sixth{
+	 border-radius: 20px;
+	background-color:#B0B0B0 ;
+	border: 5px solid #808080 ;
+}
+
+
+.button{
+	border-radius: 20px;
+	background-color:#C1C1C1;
+
+}
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
